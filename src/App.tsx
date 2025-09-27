@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 
 type Client = { name: string; logo?: string };
@@ -233,6 +233,17 @@ export default function App() {
         <div className="container foot">
           <div>
             © {new Date().getFullYear()} Ideal Electrical Solutions Pvt. Ltd.
+            All Rights Reserved.
+          </div>
+          <div>
+            Website by{" "}
+            <a
+              href="https://www.linkedin.com/in/shashi-kant-5b8105220/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Shashi Kant
+            </a>
           </div>
         </div>
       </footer>
